@@ -1,0 +1,5 @@
+nodeschool-solutions contains my solutions to nodeschool.io self-guided 
+workshops.
+
+Installations of NodeJS and NPM are needed.  The cleanest way to install these 
+dependencies is via NVM (https://github.com/creationix/nvm).  
