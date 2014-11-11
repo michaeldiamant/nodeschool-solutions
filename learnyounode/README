@@ -2,3 +2,6 @@ Requires the following dependencies:
 npm install concat-stream
 npm install bl
 npm install async
+npm install strftime
+npm install through2-map
+
