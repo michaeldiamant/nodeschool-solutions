@@ -1,17 +1,6 @@
 var http = require('http');
 var url = require('url');
 
-function go(parsedUrl, response) {
-  response.writeHead(200, { 'Content-Type': 'application/json' });
-  var requestTimestamp = new Date(parsedUrl.query.iso);
-  response.end(
-  JSON.stringify({
-    'hour' : requestTimestamp.getHours(),
-    'minute' : requestTimestamp.getMinutes(),
-    'second' : requestTimestamp.getSeconds(),
-  }));
-}
-
 function hms(timestamp) {
   return {
     'hour' : timestamp.getHours(),
