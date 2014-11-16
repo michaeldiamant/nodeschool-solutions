@@ -1,0 +1,10 @@
+Requires the following dependencies:
+npm install through
+npm install split
+npm install concat-stream
+npm install request
+npm install websocket-stream
+npm install trumpet
+npm install duplexer
+npm install stream-combiner
+npm install tar
